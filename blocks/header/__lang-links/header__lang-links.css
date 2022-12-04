@@ -1,0 +1,7 @@
+.header__lang-links {
+    display: grid;
+    grid-template-columns: repeat(2, 22px);
+    grid-template-rows: 20px;
+    gap: 18px;
+    list-style-type: none;
+}

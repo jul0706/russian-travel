@@ -1,0 +1,9 @@
+.lead__image-track {
+    width: 320px;
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    top: -15%;
+    
+  
+}

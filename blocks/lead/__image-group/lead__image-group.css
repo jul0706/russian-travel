@@ -1,0 +1,7 @@
+.lead__image-group {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
