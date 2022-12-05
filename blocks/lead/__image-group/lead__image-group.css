@@ -3,5 +3,5 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto 8px auto;
 }
