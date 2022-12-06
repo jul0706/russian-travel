@@ -1,0 +1,6 @@
+.place__website {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 12px;
+    margin: 0 16px 32px 16px;
+}
