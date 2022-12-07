@@ -1,8 +1,7 @@
 .photo-grid {
     display: grid;
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+    width: calc(100% - (2*16px));
     gap: 12px;
-    margin:0 16px 64px 16px;
-    
-
-}
+    margin: 0 auto 64px auto;
+    }

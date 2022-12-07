@@ -1,0 +1,9 @@
+.cover__description {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    gap: 16px;
+    padding: 33px 16px;
+    box-sizing: border-box;
+    align-items: center;
+
+}
