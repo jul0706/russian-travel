@@ -15,3 +15,21 @@
             width: calc(100% - (2*24px));
         } 
     }
+
+    @media screen and (min-width: 1024px) {
+        .photo-grid{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, auto);
+            gap: 14px;
+            margin: 0 auto 92px auto;
+            width: calc(100% - (2*48px));
+        } 
+    }
+
+    @media screen and (min-width: 1280px) {
+        .photo-grid{
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, auto);
+            gap: 16px;
+        } 
+    }

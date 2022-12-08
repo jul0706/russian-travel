@@ -5,3 +5,15 @@
     justify-content: center;
     margin: 0 auto 8px auto;
 }
+
+@media screen and (min-width: 1024px) {
+    .lead__image-group {
+        width: calc(100% - (2*48px));
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image-group {
+        width: calc(100% - (2*148px));
+    }
+}

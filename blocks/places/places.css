@@ -2,6 +2,30 @@
     display: grid;
     grid-template-rows: repeat(5, auto);
     gap: 50px;
-    margin-bottom: 66px;
+    margin: 0 auto;
     
+}
+
+@media screen and (min-width: 768px) {
+    .places {
+        gap: 73px;
+        margin: 0 auto 90px auto;
+        width: calc(100% - (2*24px));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+        gap: 80px;
+        margin: 0 auto 92px auto;
+        width: calc(100% - (2*48px));
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        gap: 80px;
+        margin: 0 auto 92px auto;
+        width: calc(100% - (2*148px));
+    }
 }

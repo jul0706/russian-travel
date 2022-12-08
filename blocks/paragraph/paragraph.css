@@ -2,10 +2,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    /*margin-left: 16px;
-    margin-right: 16px;*/
     margin: auto;
     width: calc(100% - (2*16px));
     margin-block-start: 0;
     margin-block-end: 0;
 }
+

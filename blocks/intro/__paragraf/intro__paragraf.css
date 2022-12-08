@@ -5,5 +5,18 @@
 @media screen and (min-width: 768px) {
     .intro__paragraf {
         margin-bottom: 33px;
+        width: calc(100% - (2*24px));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__paragraf {
+        width: calc(100% - (2*48px));
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro__paragraf {
+        width: calc(100% - (2*148px));
     }
 }

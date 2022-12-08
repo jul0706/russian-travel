@@ -6,5 +6,18 @@
     .intro__title {
         font-size: 54px;
         line-height: 58px;
+        width: calc(100% - (2*24px));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__title {
+        width: calc(100% - (2*48px));
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro__title {
+        width: calc(100% - (2*148px));
     }
 }
