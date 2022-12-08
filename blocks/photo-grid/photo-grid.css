@@ -5,3 +5,13 @@
     gap: 12px;
     margin: 0 auto 64px auto;
     }
+
+    @media screen and (min-width: 768px) {
+        .photo-grid{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(6, auto);
+            gap: 16px;
+            margin: 0 auto 88px auto;
+            width: calc(100% - (2*24px));
+        } 
+    }

@@ -8,3 +8,10 @@
     max-width: calc(100% - (16px*2));
     margin: 0 auto 16px auto;
 }
+
+@media screen and (min-width: 768px) {
+    .lead__title {
+        font-size: 96px;
+        line-height: 100px;
+    }
+}
