@@ -1,8 +1,12 @@
 .lead__image-group {
     position: relative;
     overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto 8px auto;
 }
 

@@ -1,5 +1,6 @@
 .cover__description {
     display: grid;
+        display: -ms-grid;
     grid-template-rows: repeat(2, auto);
     gap: 16px;
     padding: 33px 16px;

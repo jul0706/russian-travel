@@ -21,3 +21,9 @@
         margin: 0 48px 92px 48px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .lead__caption {
+        margin: 0 148px 92px 148px;
+    }
+}

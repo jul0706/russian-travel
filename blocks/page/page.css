@@ -1,21 +1,5 @@
-@font-face {
-    font-family: 'Inter';
-    src: url(../../fonts/Inter-Regular.woff);
-};
-@font-face {
-    font-family: 'Inter';
-    font-weight: 400;
-    src: url(../../fonts/Inter-Bold.woff);
-}
-@font-face {
-    font-family: 'Inter';
-    font-weight: 900;
-    src: url(../../fonts/Inter-Black.woff);
-}
-
 .page {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     color: white;
-   
-    
+    -webkit-font-smoothing: antialiased;
 }
