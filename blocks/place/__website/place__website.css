@@ -13,8 +13,7 @@
 
 @media screen and (min-width: 1024px) {
     .place__website {
-        margin: 0;
         grid-template-rows: repeat(2, min-content);
-        align-content:flex-end;
+        align-content: flex-end;
     }
 }

@@ -6,8 +6,6 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
             flex-direction: column;
-    min-width: 320px;
-    min-height: 200px;
     background-image: url('../../images/cover-background.jpg');
     background-position: center center;
     background-size: cover;
@@ -18,25 +16,19 @@
 
 @media screen and (min-width: 768px) {
     .cover {
-        min-height: 480px;
-        min-width: 768px;
         margin-bottom: 88px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover {
-        min-height: 640px;
-        min-width: 1024px;
         margin-bottom: 92px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
-        min-height: 740px;
-        min-width: 1184px;
-        margin-bottom: 0 48px 92px 48px;
-
-    }
+        margin: 0 auto 92px auto;
+        max-width: 1184px;
+}
 }
