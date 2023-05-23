@@ -12,4 +12,9 @@
 - анимация
 - работа с изображениями и шрифтами
 
+<div>
+  <img src="./russia1.png" title="Mesto" alt="страница проекта" width="400" height="400"/>&nbsp;
+  <img src="./russia2.png" title="Mesto" alt="сраница проекты с грид сеткой" width="400" height="400"/>&nbsp;
+</div>
+
 Ссылка на сайт: https://jul0706.github.io/russian-travel/index.html
